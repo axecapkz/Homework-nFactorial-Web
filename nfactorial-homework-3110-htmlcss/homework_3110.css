@@ -1,0 +1,170 @@
+h4 {
+    padding: 15px 3px 1px 10px;
+    margin: 0px;
+}
+
+.row1 {
+    background-color: red;
+    display: flex;
+}
+
+.row1 div {
+    flex: 1;
+    height: 50px;
+    width: 100px;
+}
+
+.row1 div:nth-child(even) {
+    flex: 1;
+    height: 50px;
+    width: 100px;
+    background-color: blue;
+}
+
+.row2 {
+background-color: green;
+display: flex;
+}
+
+.row2 div {
+    flex: 9;
+    height: 50px;
+    width: 100px;
+}
+
+.row2 div:nth-child(even) {
+    flex: 1;
+    height: 50px;
+    width: 100px;
+    background-color: blue;
+}
+
+.row3 {
+    background-color: green;
+    display: flex;
+ }
+    
+.row3 div {
+    flex: 1;
+    height: 50px;
+    width: 100px;
+}
+
+.row3 div:nth-child(1){
+    flex: 1;
+    height: 50px;
+    width: 100px;
+    background-color: red;
+}
+
+.row3 div:nth-child(3){
+    flex: 1;
+    height: 50px;
+    width: 100px;
+    background-color: green;
+}
+    
+.row3 div {
+    flex: 8;
+    height: 50px;
+    width: 100px;
+    background-color: blue;
+}
+
+.row4 {
+    background-color: red;
+    display: flex;
+}
+        
+.row4 div {
+    flex: 9;
+    height: 50px;
+    width: 100px;
+}
+        
+.row4 div:nth-child(even) {
+    flex: 1;
+    height: 50px;
+    width: 100px;
+    background-color: blue;
+}
+
+.row5 {
+    background-color: green;
+    display: flex;
+ }
+    
+.row5 div {
+    height: 50px;
+}
+
+.row5 div:nth-child(odd){
+    flex: 9;
+    height:50px;
+    background-color: green;
+}
+    
+.row5 div {
+    align-self: center;
+    height: 30px;
+    width: 30px;
+    background-color: red;
+}
+
+.row6 {
+    display: flex;
+    background-color: red;
+ }
+    
+.row6 div {
+    height: 50px;
+    width: 100px;
+}
+
+.row6 div:nth-child(odd){
+    flex: 9;
+    height: 50px;
+    width: 100px;
+    background-color: red;
+}
+    
+.row6 div {
+    align-self: center;
+    height: 50px;
+    width:50px;
+    background-color: blue;
+}
+
+.row7 {
+    background-color: blue;
+    display: flex;
+}
+
+.row7 div {
+    flex: 9;
+    height: 50px;
+}
+
+.row7 div:nth-child(odd){
+    flex: 1;
+    height:50px;
+    background-color: red;
+}
+    
+.row7 div {
+    flex: 9;
+    align-self: center;
+    height: 15px;
+    background-color: green;
+}
+
+.row8 {
+    display: flex;
+    background-color: orange;
+}
+
+.row8 div:nth-child(even){
+    flex: 9;
+    height: 50px;
+    background-color: green;
+}
