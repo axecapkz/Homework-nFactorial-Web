@@ -159,12 +159,33 @@ display: flex;
 }
 
 .row8 {
-    display: flex;
     background-color: orange;
+    display: flex;
+}
+
+.row8 div {
+    flex: 1;
+    height: 50px;
 }
 
 .row8 div:nth-child(even){
-    flex: 9;
+    flex: 3;
+    background-color: green;
+}
+
+/* // */
+
+.row9 {
+    background-color: orange;
+    display: flex;
+}
+
+.row9 div {
+    flex: 7;
     height: 50px;
+}
+
+.row9 div:nth-child(even){
+    flex: 1;
     background-color: green;
 }
